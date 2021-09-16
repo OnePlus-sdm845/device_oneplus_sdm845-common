@@ -306,12 +306,12 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0:64 \
-    android.hardware.nfc@1.1:64 \
-    android.hardware.nfc@1.2:64 \
+    android.hardware.nfc@1.0 \
+    android.hardware.nfc@1.1 \
+    android.hardware.nfc@1.2 \
     com.android.nfc_extras \
-    vendor.nxp.nxpese@1.0:64 \
-    vendor.nxp.nxpnfc@1.0:64 \
+    vendor.nxp.nxpese@1.0 \
+    vendor.nxp.nxpnfc@1.0 \
     libchrome.vendor \
     Tag
 
