@@ -122,10 +122,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libc++demangle_vendor \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service \
-    vendor.qti.hardware.camera.device@1.0.vendor
+    android.hardware.camera.provider@2.4-service
 
 # Codec2
 PRODUCT_PACKAGES += \
@@ -394,12 +392,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
-# OnePlus Camera HIDL
 PRODUCT_PACKAGES += \
-    libcvface_api \
-    libqti-perfd-client \
-    vendor.oneplus.camera.CameraHIDL@1.0 \
-    vendor.oneplus.camera.CameraHIDL@1.0.vendor
+    libqti-perfd-client
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-oem-system.xml:system/etc/permissions/privapp-permissions-oem.xml \
